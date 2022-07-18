@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Page 3</title>
+</head>
+<body style="background-color:aqua">
+	<h1>Page 3</h1>
+	<hr>
+	<a href="page2.html" >Page2</a>
+<a href="index.html" >Home</a>
+</body>
+</html>

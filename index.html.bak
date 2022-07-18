@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Your Description" >
+		<meta name="author" content="Ja" >
+		<meta name="keywords" content="HTML, Tutorial, Giraffe Academy" >
+		<meta name="description" content="This is an awesome website">
+		<title>My Website</title>
+	</head>
+	<body style="background-color:aqua"> <!--setting background -->
+		<a href="https://www.google.com" target="_blank"><h1>Google's <b>Homepage</b></h1></a>
+		<a href="page2.html" >Page2</a> <!-- page2 link-->
+		<a href="page3.html" >Page3</a>
+		<a href="cat.jpg" >Cat</a> <!--putting image-->
+		
+		<!--szrek-->
+		<a href="https://lh3.googleusercontent.com/2hDpuTi-0AMKvoZJGd-yKWvK4tKdQr_kLIpB_qSeMau2TNGCNidAosMEvrEXFO9G6tmlFlPQplpwiqirgrIPWnCKMvElaYgI-HiVvXc=w600">
+		<img width="100" height="66"src="cat.jpg" alt="random image from google" />
+		</a>
+		<!-- video stored locally, didnt have one, but the methodics are as below,local link instead of hyptertext-->
+		<video src="https://www.youtube.com/watch?v=R_-DBzmuuQU" poster="thumb.jpg" loop autoplay controls width="300"></video>
+		
+		<!--img from google-->
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/R_-DBzmuuQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+		<!--ordered list-->
+		<ol type="I">
+			<li>asdasd</li>
+				<ol>
+					<li>item1</li>
+				</ol>
+			<li>asdasdasd</li>
+			<li>asdsdasd</li>
+		</ol>
+		
+		<!--unordered list-->
+		<ul>
+			<li><a href="https://lh3.googleusercontent.com/2hDpuTi-0AMKvoZJGd-yKWvK4tKdQr_kLIpB_qSeMau2TNGCNidAosMEvrEXFO9G6tmlFlPQplpwiqirgrIPWnCKMvElaYgI-HiVvXc=w600"> mandarynka</a></li>
+			<li>mandarynkasda</li>
+			<li>mandarysdanka</li>
+			<li>mandaryasdnka</li>
+		</ul>
+		
+		<!--descriptive list-->
+		<dl>
+		 <dt>gruszki</dt>
+		 <dd>- they are orange</dd>
+		</dl>
+		
+		<!--putting a table-->
+		<table>
+		 <thead> <!--table head tag-->
+			 <caption><h2> List of Numbers </h2></caption> <!--title of the table, h2 tag is format of the title-->
+			<tr>		 
+			  <th>num1</th>  <!--table header-->
+			  <th>num2</th>
+			  <th>num3</th>
+			 </tr>
+		 </thead>
+		 <tbody> <!--table body-->
+			 <tr>		 <!--table row tag-->
+			  <td colspan="2">one</td> <!--table data-->
+			  <td>two</td>
+			  <td>three</td>
+			  <td>three and a half</td>
+			 </tr>
+			  <tr>		 
+			  <td>four</td> 
+			  <td>five</td>
+			  <td>six</td>
+			 </tr>
+		  </tbody>
+		</table>
+		<hr>
+		
+		
+		
+		<a href="#">link1</a>
+		<a href="#">link1</a>
+		<hr>
+		<p>Paragraph1</p>
+		<p>Paragraph2</p>
+		
+		
+		<hr>
+		<span>span1</span> <!--span is an inline container-->
+		<span>span2</span>
+		<hr>
+		<div>div1</div> <!--div is a block container-->
+		<div>div2</div>
+		<hr>
+		
+		<input type="text" value="Enter you username"/>                    <!-- input is a single tag-->
+		<input type="password" />
+		
+		<textarea rows="10" cols="30">
+		Enter a paragraph
+		</textarea>
+		
+		<input type="date" />
+		
+		<input type="range" />
+		<input type="file" />
+		<input type="checkbox" />
+		<input name="btn" type="radio" />
+		<input name="btn" type="radio" />
+		
+		<form>
+		 <input type="submit" />
+		</form>
+		
+		
+		<iframe src="http://giraffeacademy.com/" frameborder="0" width="1000" height="800">Sorry</iframe>
+		
+		
+		
+		
+		
+		<header>
+		<nav>
+		
+		</nav>
+		</header>
+		<main>
+			<article>
+				<section>
+					<aside>
+					</aside>
+				</section> 
+				<section>
+				</section>
+			</article>
+		</main>
+		<footer>
+		
+		</footer>
+		
+	
+	
+	
+		<h3>Konrad's Website</h3>
+		<br/><br/><br/>
+		<hr/>
+		<br/><br/><br/>
+		<hr/>
+		<p><big>testing</big> my <small>1st</small> <b>paragraph</b></p>
+		<p><b><i>another</b></i> <i>paragraph</i></p>
+		
+		<p>H<sub>2</sub>O</p>
+		
+		<p>10<sup>2</sup></p>
+		
+		<h2>Comments are <i>~~INVISIBLE~~</i></h2>
+		
+		<h2 style="color:green;">Style and Colors</h2>
+		<p style="color: blue; background-color:red;">You can style your HTML  and make it look preety</p>
+		
+		
+		
+		
+		
+	</body>
+</html>
